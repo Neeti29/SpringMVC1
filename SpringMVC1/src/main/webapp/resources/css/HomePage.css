@@ -1,0 +1,228 @@
+@charset "ISO-8859-1";
+
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+
+
+html,body{
+background-image: url('file:///C:/Users/Training/eclipse-workspace/Core%20Java/HrManagement/WebContent/image/hr-managemenat.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed;
+/* height: 100%; */
+height:80%;
+font-family: 'Numans', sans-serif;
+}
+
+.navbar{
+	
+	background-color: black;
+} 
+
+
+
+.container{
+height: 100%;
+align-content: center;
+padding-top:130px;
+padding-right:20px;
+}
+
+/* .aside{
+	padding:200px 20px;
+	
+} 
+ */
+ 
+ .title {
+    style: bold;
+    color:#808080;
+    position:absolute;
+    font-size:60px;
+ }
+ 
+  .title h1:hover {
+   	color:blue;
+ } 
+ 
+.card1{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+/*. card{
+	height:100px;
+	width:200px;
+} */
+
+/* .card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+padding: 10px;
+} */
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.btn{
+background-color: #FFC312;
+color:black;
+}
+
+.btn:hover{
+	color: black;
+	background-color: white;
+}
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.card{
+ background-color:black;
+ opacity:0.7;
+ color:white;
+}
+
+/* Footer */
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background:#1E90F ;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	/* padding: 3px 0; */
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	/* padding: 3px 0; */
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
